@@ -1,0 +1,47 @@
+html {
+  font-family: sans-serif;
+}
+
+body{
+  max-height: 100px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.result {
+  margin: 0%;
+  width: 300px;
+  text-align: right;
+  background-color: gray;
+}
+
+div {
+  margin: 0px;
+  padding: 0%;
+  overflow: hidden;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.equal {
+  display: flex;
+  background-color: #f77077;
+  grid-row: 2 / span 4;
+  grid-column-start: 4;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #899dae;
+  background-color: #eff2f5;
+  text-align: center;
+}
+
+.divide {
+  border-top: 0;
+  border-right: 0;
+}
